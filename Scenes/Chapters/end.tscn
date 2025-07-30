@@ -1,0 +1,106 @@
+[gd_scene load_steps=3 format=3 uid="uid://dswl08rbikd66"]
+
+[ext_resource type="FontFile" uid="uid://bxv42bk83r2rv" path="res://Fonts/Renogare-Regular-GameOnly.otf" id="1_73hqc"]
+[ext_resource type="Texture2D" uid="uid://b1uarb0n0doth" path="res://Sprites/titulo.png" id="2_avxhx"]
+
+[node name="end" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.117647, 0.0901961, 0.188235, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -318.0
+offset_top = 32.0
+offset_right = 318.0
+offset_bottom = 105.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="Label" parent="Control/CenterContainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 61
+text = "FIM DO CAPITULO"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="CenterContainer2" type="CenterContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -294.0
+offset_top = 105.0
+offset_right = 295.0
+offset_bottom = 147.75
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Continue" type="Label" parent="Control/CenterContainer2"]
+layout_mode = 2
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = ExtResource("1_73hqc")
+theme_override_font_sizes/font_size = 36
+text = "Clica \"Espaço\" para continuar"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="speedrun" type="CenterContainer" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -294.0
+offset_top = 159.0
+offset_right = 295.0
+offset_bottom = 201.75
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="speedrun_label" type="Label" parent="Control/speedrun"]
+layout_mode = 2
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = ExtResource("1_73hqc")
+theme_override_font_sizes/font_size = 36
+text = "Tempo: -"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CenterContainer3" type="CenterContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Titulo" type="Sprite2D" parent="Control/CenterContainer3"]
+position = Vector2(569.188, 192)
+scale = Vector2(0.9375, 0.9375)
+texture = ExtResource("2_avxhx")

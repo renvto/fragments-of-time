@@ -1,0 +1,64 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://cyus2wuq48p72"]
+
+[ext_resource type="Texture2D" uid="uid://cqtiigm8810vn" path="res://Sprites/UI/buttons.png" id="1_6qhgi"]
+[ext_resource type="FontFile" uid="uid://bxv42bk83r2rv" path="res://Fonts/Renogare-Regular-GameOnly.otf" id="2_rpour"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0cqyu"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0cqyu"]
+texture = ExtResource("1_6qhgi")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 20.0
+expand_margin_top = 2.0
+expand_margin_right = 20.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(1, 17, 14, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j76uf"]
+texture = ExtResource("1_6qhgi")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 20.0
+expand_margin_top = 2.0
+expand_margin_right = 20.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(17, 18, 14, 13)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_se5sn"]
+texture = ExtResource("1_6qhgi")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 20.0
+expand_margin_top = 2.0
+expand_margin_right = 20.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(33, 1, 14, 14)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ela5v"]
+texture = ExtResource("1_6qhgi")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 20.0
+expand_margin_top = 2.0
+expand_margin_right = 20.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(17, 18, 14, 13)
+
+[resource]
+default_font = ExtResource("2_rpour")
+default_font_size = 0
+Button/styles/focus = SubResource("StyleBoxEmpty_0cqyu")
+Button/styles/hover = SubResource("StyleBoxTexture_0cqyu")
+Button/styles/hover_pressed = SubResource("StyleBoxTexture_j76uf")
+Button/styles/normal = SubResource("StyleBoxTexture_se5sn")
+Button/styles/pressed = SubResource("StyleBoxTexture_ela5v")
+Panel/styles/panel = null

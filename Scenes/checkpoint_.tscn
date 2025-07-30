@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2cgormvgl1ev"]
+
+[ext_resource type="Script" uid="uid://2a2cm0quopvm" path="res://Scripts/checkpoint.gd" id="1_o5jrl"]
+[ext_resource type="AudioStream" uid="uid://dhl1a21nk4xko" path="res://Audio/Sound Effects/checkpoint.wav" id="2_cb6ca"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2cwi7"]
+size = Vector2(34.25, 32.75)
+
+[node name="checkpoint_" type="Area2D"]
+script = ExtResource("1_o5jrl")
+activation_sound = ExtResource("2_cb6ca")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_2cwi7")

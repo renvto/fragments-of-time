@@ -1,0 +1,75 @@
+[gd_resource type="Theme" load_steps=11 format=3 uid="uid://0jl5lwpcr8m3"]
+
+[ext_resource type="FontFile" uid="uid://bxv42bk83r2rv" path="res://Fonts/Renogare-Regular-GameOnly.otf" id="1_b6xtr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jklt5"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rispo"]
+load_path = "res://.godot/imported/buttons.png-8e4841887988113f0b704e9aa38e30ee.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0vbrl"]
+texture = SubResource("CompressedTexture2D_rispo")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 6.0
+expand_margin_top = 2.0
+expand_margin_right = 6.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(1, 17, 14, 14)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tectq"]
+load_path = "res://.godot/imported/buttons.png-8e4841887988113f0b704e9aa38e30ee.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6igdq"]
+texture = SubResource("CompressedTexture2D_tectq")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 6.0
+expand_margin_top = 2.0
+expand_margin_right = 6.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(17, 18, 14, 13)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mgg2t"]
+load_path = "res://.godot/imported/buttons.png-8e4841887988113f0b704e9aa38e30ee.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6om1g"]
+texture = SubResource("CompressedTexture2D_mgg2t")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 6.0
+expand_margin_top = 2.0
+expand_margin_right = 6.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(33, 1, 14, 14)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wwn3r"]
+load_path = "res://.godot/imported/buttons.png-8e4841887988113f0b704e9aa38e30ee.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t57h6"]
+texture = SubResource("CompressedTexture2D_wwn3r")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+expand_margin_left = 6.0
+expand_margin_top = 2.0
+expand_margin_right = 6.0
+expand_margin_bottom = 2.0
+region_rect = Rect2(17, 18, 14, 13)
+
+[resource]
+default_font = ExtResource("1_b6xtr")
+default_font_size = 0
+Button/styles/focus = SubResource("StyleBoxEmpty_jklt5")
+Button/styles/hover = SubResource("StyleBoxTexture_0vbrl")
+Button/styles/hover_pressed = SubResource("StyleBoxTexture_6igdq")
+Button/styles/normal = SubResource("StyleBoxTexture_6om1g")
+Button/styles/pressed = SubResource("StyleBoxTexture_t57h6")
+Panel/styles/panel = null
